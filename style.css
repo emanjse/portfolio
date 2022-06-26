@@ -1,0 +1,56 @@
+body{
+    background-color:#383838;
+}
+
+/* navbar */
+.navbar-brand {
+    color:#fff;
+    font-size:30px;
+    font-family: 'Mate SC', serif;
+    font-family: 'Vollkorn SC', serif;
+}
+.navbar-brand .highlight{
+    color:#c595e7;
+}
+.navbar{
+    background: #111;
+}
+.navbar .nav-link{
+    color: white;
+}
+
+.navbar .nav-link:hover{
+    color:#c595e7;
+}
+.navbar .nav-link:active{
+    color:#ddbdf3;
+}
+.navbar .icons a{
+    font-size: 32px;
+    color:#fff;
+    margin: 0px 5px;
+  visibility: hidden;
+
+}
+
+.navbar .icons a:hover{
+    color:#c595e7;
+}
+
+@media (min-width: 992px) {
+.navbar{
+    min-height: 100vh;
+    width: 240px;
+}
+.navbar .icons a{
+    visibility: visible;
+}
+ .navbar-nav{
+    margin: 55px;
+}
+.navbar-brand{
+    margin-bottom: 20px;
+    text-align:center;
+}
+}
+
