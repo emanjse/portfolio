@@ -2,10 +2,10 @@ body{
     background-color:#383838;
 }
 
-/* navbar */
+/* start navbar */
 .navbar-brand {
     color:#fff;
-    font-size:30px;
+    font-size:28px;
     font-family: 'Mate SC', serif;
     font-family: 'Vollkorn SC', serif;
 }
@@ -26,11 +26,9 @@ body{
     color:#ddbdf3;
 }
 .navbar .icons a{
-    font-size: 32px;
+    font-size: 20px;
     color:#fff;
     margin: 0px 5px;
-  visibility: hidden;
-
 }
 
 .navbar .icons a:hover{
@@ -40,17 +38,12 @@ body{
 @media (min-width: 992px) {
 .navbar{
     min-height: 100vh;
-    width: 240px;
-}
-.navbar .icons a{
-    visibility: visible;
-}
- .navbar-nav{
-    margin: 55px;
+    width: 200px;
 }
 .navbar-brand{
     margin-bottom: 20px;
     text-align:center;
 }
 }
+/* end navbar */
 
