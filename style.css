@@ -146,6 +146,30 @@ section{
 /* end skill section */
 
 
+/* start contact section*/
+
+#contact .form-control {
+    background-color:rgb(17, 17, 17,0.8);
+    border-color: #515151;
+    color: #c595e7;
+    border-radius: 8px;
+}
+
+#contact .form-control:focus {
+    border-color: #c595e7;
+    box-shadow: none;
+}
+
+#contact .form-control::placeholder {
+    color: #d0d0d0;
+}
+
+#contact input.form-control {
+    height: 50px;
+}
+
+/* end contact section */
+
 
 
 @media (min-width: 992px) {
@@ -164,9 +188,17 @@ section{
     margin-bottom: 35px;
     text-align:center;
 }
+
+/*home*/
 .home-container{
     padding-left:270px;
 }
+}
+
+@media (max-width: 325px){
+    .skill,#contact{
+        padding-left:50px;
+      }
 }
 
 
