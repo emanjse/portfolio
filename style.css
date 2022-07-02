@@ -111,6 +111,43 @@ section{
 }
 /* end about section */
 
+
+
+
+/* start skill section */
+
+.skill .box {
+    padding: 30px 30px 25px 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+  }
+
+  .skill .box .skill-icon {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+   .skill .box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #fff;
+  }
+
+  .skill .box p {
+    font-size: 18px;
+    padding: 5px;
+    color: #d0d0d0;
+  }
+
+/* end skill section */
+
+
+
+
 @media (min-width: 992px) {
     section{
         padding-left:270px;
