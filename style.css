@@ -7,6 +7,10 @@
 body{
     background-color:#383838;
 }
+section{
+    padding: 120px 0px;
+
+}
 
 /* start navbar */
 .navbar-brand {
@@ -41,8 +45,55 @@ body{
 
 /* end navbar */
 
+/* start home section */
+
+.home .home-text .hello{
+    font-size: 25px;
+    color:#c595e7;
+}
+
+.home-text h1{
+    font-size:50px;
+    color: #fff;
+}
+
+ .home .home-text h1 span{
+    color:#c595e7;
+    text-transform: uppercase;
+    transition: .9s linear;
+}
+
+ .home .home-text .me{
+    color:#fff;
+    font-size: 28px;
+    padding:.5rem ;
+}
+.home .home-text .me span{
+    border-bottom: 2px solid #c595e7;
+}
+.home .home-img img{
+    border:8px solid #fff;
+}
+.btn{
+    color:#fff;
+    border: 2px solid #c595e7;
+    padding: 5px 25px;
+}
+ .btn:hover{
+    color:#c595e7;
+    border-color: #fff;
+}
+
+ /* end home section */
 
 @media (min-width: 992px) {
+    section{
+        padding-left:270px;
+       border-bottom: 1px solid rgb(197, 149, 231,0.3);
+       border-top: 1px solid rgb(197, 149, 231,0.3);
+   }
+   
+/* navbar */
 .navbar{
     min-height: 100vh;
     width: 220px;
