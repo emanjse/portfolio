@@ -86,6 +86,31 @@ section{
 
  /* end home section */
 
+
+
+ /* start about section */
+ .about h2{
+    color: #fff;
+ }
+ .about h2 span{
+    color: #c595e7;
+ }
+
+ .about .p,.about h6 span{
+    color: #e3e3e3;
+ }
+ .about h3{
+    color: #c595e7;
+ }
+ .about h6{
+    color: #c595e7;
+ }
+ .about img{
+    border:8px solid #fff;
+
+}
+/* end about section */
+
 @media (min-width: 992px) {
     section{
         padding-left:270px;
