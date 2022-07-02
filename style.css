@@ -92,7 +92,7 @@ section{
        border-bottom: 1px solid rgb(197, 149, 231,0.3);
        border-top: 1px solid rgb(197, 149, 231,0.3);
    }
-   
+
 /* navbar */
 .navbar{
     min-height: 100vh;
@@ -101,6 +101,9 @@ section{
 .navbar-brand{
     margin-bottom: 35px;
     text-align:center;
+}
+.home{
+    padding-left:270px;
 }
 }
 
