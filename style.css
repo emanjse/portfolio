@@ -71,9 +71,7 @@ section{
 .home .home-text .me span{
     border-bottom: 2px solid #c595e7;
 }
-.home .home-img img{
-    border:8px solid #fff;
-}
+
 #bg-animation {
     position: relative;
     right: 100px;
