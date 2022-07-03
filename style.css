@@ -74,6 +74,18 @@ section{
 .home .home-img img{
     border:8px solid #fff;
 }
+#bg-animation {
+    position: relative;
+    right: 100px;
+    bottom: 300px;
+  }
+  #bg,#img {
+    position: absolute;
+    left: 50px;
+  }
+
+
+
 .btn{
     color:#fff;
     border: 2px solid #c595e7;
@@ -201,8 +213,9 @@ footer p span{
 
 /*home*/
 .home-container{
-    padding-left:270px;
+    padding-left:248px;
 }
+
 }
 
 @media (max-width: 325px){
